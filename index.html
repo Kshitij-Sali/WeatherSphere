@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Sphere</title>
+    <link rel="icon" href="Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <img src="/Assests/Logo.png" alt="Logo">
+        <h1>WEATHER SPHERE</h1>
+    </div>
+    <div class="container">
+        <div class="weatherInput">
+            <h2 id="greeting"></h2>
+            <h3>Enter city name</h3>
+            <input class= "cityInput" type="text" placeholder="E.g., New York, London, New Delhi">
+            <button class="searchBtn">Search</button>
+            <div class="seperator"></div>
+            <button class="locationBtn">Use current location</button>
+        </div>
+        <div class="weatherData">
+            <div class="currentWeather">
+                <div class="details">
+                    <h2>________ ( ________ )</h2>
+                    <h4>Temperature: __°C</h4>
+                    <h4>Wind: __m/s</h4>
+                    <h4>Humidity: __%</h4>
+                </div>
+            </div>
+            <div class="daysForecast">
+                <div class="ForecastSep"></div>
+                <ul class="weatherCards">
+                    <li class="card">
+                        <h3>( ________ )</h3>
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ________ )</h3>
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ________ )</h3>
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ________ )</h3>
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( ________ )</h3>
+                        <h4>Temp: __°C</h4>
+                        <h4>Wind: __m/s</h4>
+                        <h4>Humidity: __%</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">&#169 Copyright 2025. All Rights Reserved</div>
+    <script src="script.js"></script>
+</body>
+</html>
